@@ -214,5 +214,6 @@ if __name__ == '__main__':
     app.run(
         host='0.0.0.0',
         port=8443,
-        ssl_context=('/home/juicetin/ssl/server.crt', '/home/juicetin/ssl/server.key')
+        #CHANGE THIS to the location of your SSL certs
+        ssl_context=('/directory/to/your/ssl.crt', '/directory/to/your/ssl.key')
     )
